@@ -1,3 +1,10 @@
+<?php 
+	// load one time.
+	// Notice that this is using the file system and not the URL.
+	// Always use static strings in require functions for security.
+	require_once('../../private/initialize.php'); 
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -21,8 +28,7 @@
   	</navigation>
 
   	<div id="content">
-  		
-  		
+
   	</div>
 
   	<footer>
