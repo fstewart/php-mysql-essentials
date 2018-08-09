@@ -1,3 +1,33 @@
-PHP with MySQL Essentials with Kevin Skoglund
+PHP with MySQL Essentials Training with Kevin Skoglund
 
-- Performing CRUD with PHP and MySQL
+Blueprint
+
+Public Area
+===========
+Site Pages
+- navigation
+- page content
+- read only
+
+Admin Areas
+==========
+Login page
+- form 
+- username
+- password
+
+Admin Menu
+- manage content
+- manage admins
+- logout
+
+Manage Content
+- subjects
+- pages
+
+Manage Admins
+- admins
+
+Logout
+- do logout
+- back to login
