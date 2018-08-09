@@ -1,12 +1,20 @@
-<!doctype html>
+<?php 
+	// load one time.
+	// Notice that this is using the file system and not the URL.
+	// Always use static strings in require functions for security.
+	require_once('../../../private/initialize.php'); 
+?>
+<?php 
+	//Demonstration that variables are availble using PHP.
+	$page_title = 'Subjects'; 
+?>
 
-<html lang="en">
-  <head>
-    <title></title>
-    <meta charset="utf-8">
-  </head>
+<?php include(SHARED_PATH . '/staff_header.php'); ?>
 
-  <body>
+	<div id="content">
 
-  </body>
-</html>
+		
+
+	</div>
+
+<?php include(SHARED_PATH . '/staff_footer.php'); ?>	

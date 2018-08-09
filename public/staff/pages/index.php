@@ -1,25 +1,20 @@
-<!doctype html>
+<?php 
+  // load one time.
+  // Notice that this is using the file system and not the URL.
+  // Always use static strings in require functions for security.
+  require_once('../../../private/initialize.php'); 
+?>
+<?php 
+  //Demonstration that variables are availble using PHP.
+  $page_title = 'Pages'; 
+?>
 
-<html lang="en">
-  <head>
-    <title>GBI</title>
-    <meta charset="utf-8">
-  </head>
+<?php include(SHARED_PATH . '/staff_header.php'); ?>
 
-  <body>
+  <div id="content">
 
-  	<header>
-  		<h1>GBI Staff Area</h1>
-  	</header>
+    
 
-  	<navigation>
-  		<ul>
-  			<li><a href="index.php">Menu</a></li>
-  		</ul>
-  	</navigation>
+  </div>
 
-  	<footer>
-  		&copy <?php echo date('Y'); ?> Globe Bank
-  	</footer>
-  </body>
-</html>
+<?php include(SHARED_PATH . '/staff_footer.php'); ?>  
